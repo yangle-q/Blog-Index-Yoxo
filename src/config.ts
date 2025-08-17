@@ -1,25 +1,50 @@
 /** Website 分类配置 */
 const WEBSITE_SORTS: WebsiteSort[] = [
   {
-    title: "示例分类1",
+    title: "Yoxo",
     sites: [
       {
-        title: "主标题",
-        url: "http://www.your-web-page.com/",
-        icon: "",
+        title: "Umami",
+        description: "Umami 访问统计",
+        url: "http://umami.yoxo.top/",
+        icon: "https://pic-1.yoxo.top/umami1679541696502.webp",
         color: "#0171CD",
       },
       {
-        title: "主标题",
-        description: "网站描述",
-        url: "http://www.your-web-page.com/",
+        title: "Picx",
+        description: "Picx 图床",
+        url: "http://picx.yoxo.top/",
+        icon: "https://picx.yoxo.top/logo.png",
+      },
+      {
+        title: "Files Storage",
+        description: "博客文件存储",
+        url: "http://files.yoxo.top/",
         icon: "",
       },
       {
-        title: "主标题",
-        description: "网站描述",
-        url: "http://www.your-web-page.com/",
-        icon: "",
+        title: "Live2d",
+        description: "Live2d 人物",
+        url: "http://live2d.yoxo.top/",
+        icon: "https://live2d.yoxo.top/avatar.png",
+      },
+      {
+        title: "Waline",
+        description: "Waline 评论示例",
+        url: "http://waline.yoxo.top/",
+        icon: "https://waline.js.org/logo.png",
+      },
+      {
+        title: "Twikoo",
+        description: "Twikoo EnvID",
+        url: "http://twikoo.yoxo.top/",
+        icon: "	https://twikoo.js.org/twikoo-logo-home.png",
+      },
+      {
+        title: "Baota Linux",
+        description: "宝塔Linux面板",
+        url: "http://bt.yoxo.top/",
+        icon: "https://www.bt.cn/favicon.ico",
       },
     ],
   },
