@@ -74,6 +74,30 @@ const WEBSITE_SORTS: WebsiteSort[] = [
         url: "https://github.com/yangle-q/",
         icon: "https://pic-1.yoxo.top/Github.webp",
       },
+      {
+        title: "Netlify",
+        description: "Netlify 面板",
+        url: "https://app.netlify.com/teams/yangle-q/projects",
+        icon: "https://ts3.tc.mm.bing.net/th/id/ODF.xeQsedeMW_fovMVDvZxKCA?w=32&h=32&qlt=94&pcl=fffffa&o=6&pid=1.2",
+      },
+      {
+        title: "Aiven",
+        description: "Aiven 数据库",
+        url: "https://console.aiven.io/account/a52c9257b20d/project/umami-access/services",
+        icon: "https://console.aiven.io/favicon.ico",
+      },
+      {
+        title: "MongoDB",
+        description: "MongoDB 数据库",
+        url: "https://cloud.mongodb.com/v2/67fe64059b54be0d3d410eae#/overview",
+        icon: "https://cloud.mongodb.com/static/images/favicon.ico",
+      },
+      {
+        title: "LeanCloud",
+        description: "LeanCloud 数据库",
+        url: "https://console.leancloud.app/apps/4qlY5ICcZGTFUHRxx5rioJfq-MdYXbMMI/",
+        icon: "https://console.leancloud.app/favicon.ico",
+      },
     ],
   },
   {
