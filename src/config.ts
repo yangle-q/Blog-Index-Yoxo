@@ -48,7 +48,7 @@ const WEBSITE_SORTS: WebsiteSort[] = [
     ],
   },
   {
-    title: "域名/项目托管",
+    title: "域名/项目托管/数据库",
     sites: [
       {
         title: "CloudFlare",
