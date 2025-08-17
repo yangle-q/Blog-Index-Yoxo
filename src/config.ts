@@ -1,14 +1,13 @@
 /** Website 分类配置 */
 const WEBSITE_SORTS: WebsiteSort[] = [
   {
-    title: "Yoxo",
+    title: "Yoxo 后台管理",
     sites: [
       {
         title: "Umami",
         description: "Umami 访问统计",
         url: "http://umami.yoxo.top/",
         icon: "https://pic-1.yoxo.top/umami1679541696502.webp",
-        color: "#0171CD",
       },
       {
         title: "Picx",
@@ -49,25 +48,48 @@ const WEBSITE_SORTS: WebsiteSort[] = [
     ],
   },
   {
-    title: "示例分类2",
-  },
-  {
-    title: "示例分类3",
-  },
-  {
-    title: "示例分类4",
-  },
-  {
-    title: "示例分类5",
-  },
-  {
-    title: "友情链接",
+    title: "域名/项目托管",
     sites: [
       {
-        title: "EsunR Blog",
-        description: "EsunR 的博客",
-        url: "https://www.esunr.xyz",
-        icon: "https://esunr-image-bed.oss-cn-beijing.aliyuncs.com/logo.jpg",
+        title: "CloudFlare",
+        description: "CloudFlare 面板",
+        url: "https://dash.cloudflare.com/01c51e722ad19c896e60f0ca5105f9e5/",
+        icon: "https://pic-1.yoxo.top/OIP-C.webp",
+      },
+      {
+        title: "Vercel",
+        description: "Vercel 面板",
+        url: "https://vercel.com/yangle-qs-projects/",
+        icon: "https://pic-1.yoxo.top/OIP-C.webp",
+      },
+      {
+        title: "Aliyun",
+        description: "Aliyun 域名管理面板",
+        url: "https://dc.console.aliyun.com/",
+        icon: "https://pic-1.yoxo.top/26753533_143624534221_2.webp",
+      },
+      {
+        title: "Github",
+        description: "Github 个人主页",
+        url: "https://github.com/yangle-q/",
+        icon: "https://pic-1.yoxo.top/Github.webp",
+      },
+    ],
+  },
+  {
+    title: "我的主页",
+    sites: [
+      {
+        title: "柠檬星 | 主页",
+        description: "我的个人主页",
+        url: "https://lemonstar.me/",
+        icon: "https://blog.lemonstar.me/img/site-icon-lemon.png",
+      },
+      {
+        title: "HelloFrom.cn 主页",
+        description: "HelloFrom.cn 主页",
+        url: "https://www.hellofrom.cn/",
+        icon: "https://www.hellofrom.cn/images/icon/logo.png",
       },
     ],
   },
@@ -80,11 +102,11 @@ const GLOBAL_CONFIG = {
   /**
    * 博客名称
    */
-  BLOG_NAME: "EsunR-Blog",
+  BLOG_NAME: "Lemonstar-blog",
   /**
    * 个人博客链接
    */
-  BLOG_URL: "https://blog.esunr.xyz",
+  BLOG_URL: "https://blog.lemonstar.me",
   /**
    * 指定中心 LOGO 图片地址
    */
@@ -92,16 +114,16 @@ const GLOBAL_CONFIG = {
   /**
    * 个人 Github 链接
    */
-  GITHUB_URL: "https://github.com/EsunR",
+  GITHUB_URL: "https://github.com/yangle-q",
   /**
    * 背景图片地址
    */
-  BACKGROUND_IMG_URL: "https://api.dujin.org/bing/1920.php",
+  BACKGROUND_IMG_URL: "https://api.nsmao.net/api/Img/query?key=gc6TEriwaawWhE996zfZgfqltb&sort=acg",
   /**
    * ICP 备案号，留空不显示
    */
-  ICP: "京ICP证000001号",
-  ICP_URL: "https://beian.miit.gov.cn/",
+  ICP: "",
+  ICP_URL: "",
   FOOTER_INFO: true,
   /**
    * 网站欢迎标语
@@ -129,9 +151,9 @@ const GLOBAL_CONFIG = {
    * 网站 Title Keywords Description 的配置，用于 SEO
    */
   TKD: {
-    title: "My Blog Index",
+    title: "Yoxo Index",
     keywords: "Blog, Index, Index Page",
-    description: "This is my personal blog index page.",
+    description: "This is Yoxo backend index page.",
   },
 };
 
