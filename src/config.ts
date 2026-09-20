@@ -38,13 +38,7 @@ const WEBSITE_SORTS: WebsiteSort[] = [
         description: "Twikoo EnvID",
         url: "http://twikoo.yoxo.top/",
         icon: "	https://twikoo.js.org/twikoo-logo-home.png",
-      },
-      {
-        title: "Baota Linux",
-        description: "宝塔Linux面板",
-        url: "http://bt.yoxo.top/",
-        icon: "https://www.bt.cn/favicon.ico",
-      },
+      }
     ],
   },
   {
